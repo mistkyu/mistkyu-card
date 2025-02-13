@@ -1,0 +1,95 @@
+body {
+	background: #1A1A1A;
+}
+
+
+aside {
+	float: left;
+	background: #171717;
+	width: 20%;
+	padding: 2.5%;
+	height: 100vh;
+	color: #fff;
+	border-right: 5px solid #232323;
+}
+
+aside a {
+	display: block;
+	text-align: left;
+	margin-top: 10px;
+}
+
+aside h3 {
+	margin-top: 60px;
+	font-size: 35px;
+	overflow-wrap: break-word;
+}
+
+aside ul {
+	max-width: 100%;
+}
+
+aside ul {list-style: none}
+aside ul li {
+	color: #fff;
+	display: block;
+	margin-top: 30px;
+	margin-left: 55px;
+	transition: transform .6s ease;
+	font-size: 20px;
+}
+
+aside ul li:hover, aside ul a:hover {
+	color: #909090;
+	text-decoration: none;
+	transform: scale(1.05);
+}
+
+aside ul a {
+	text-decoration: none;
+}
+
+aside .create_button_class {
+	margin-left: 65px;
+	list-style: none;
+	transition: transform .6s ease;
+}
+
+aside .create_button_class:hover {
+	transform: scale(1.05);
+}
+
+aside img {
+  max-width: 100%;
+  max-height: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px}
+main .features h4 {max-width: 1100px; margin: 20px auto}
+
+
+form {
+	margin-left: 32%;
+	width: 500px;
+	margin-top: 50px;
+}
+
+
+.alert-dark {
+	float: left;
+	clear: both;
+	width: 700px;
+	margin: 30px 26%;
+	text-align: left;
+}
