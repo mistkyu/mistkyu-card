@@ -8,10 +8,12 @@ To visit it you need:
 
 3. create .venv folder: 'python -m venv .venv'
 
-4. install requirements: 'pip install -r requirements.txt'
+4. activate virtual env: 'source .venv/bin/activate'
 
-5. go to folder with site: 'cd mistkyucard'
+5. install requirements: 'pip install -r requirements.txt'
 
-6. start local server: 'python manage.py runserver'
+6. go to folder with site: 'cd mistkyucard'
+
+7. start local server: 'python manage.py runserver'
 
 So this is all!
